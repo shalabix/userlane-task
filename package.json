@@ -1,0 +1,23 @@
+{
+  "name": "userlane-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadAlshalabi/userlane-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadAlshalabi/userlane-task/issues"
+  },
+  "homepage": "https://github.com/mohammadAlshalabi/userlane-task#readme",
+  "dependencies": {
+    "cypress": "^9.3.1"
+  }
+}
