@@ -1,3 +1,6 @@
 {
-    "baseUrl": "https://www.userlane.com/"
+    "baseUrl": "https://www.userlane.com/",
+    "viewportWidth": 1920,
+    "viewportHeight": 1000,
+    "chromeWebSecurity": false
 }

@@ -1,0 +1,21 @@
+name: "Sanity"
+on:
+  push
+jobs:
+  eslint:
+    name: "ESLint"
+    runs-on: "ubuntu-latest"
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+      - name: Setup Node
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: 14.x
+      - name: Install Node Packages
+        run: npm ci
+        timeout-minutes: 10
+      - name: Running cypress tests
+        run: npm run cypress:run
+        timeout-minutes: 15

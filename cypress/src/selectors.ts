@@ -1,0 +1,17 @@
+export const additionalCards = '.card-field-input';
+export const applyButton = '.posting-header .postings-btn';
+export const captchaIframe = '.h-captcha iframe';
+export const captchaImages = '.task-image';
+export const captchaSubmitButton = '.button-submit';
+export const checkbox = '#checkbox';
+export const cypressExperienceNo = '[name="cards[12a521d5-15b0-4471-9f02-891fdb44fa31][field0]"][value="No"]';
+export const cypressExperienceYes = '[name="cards[12a521d5-15b0-4471-9f02-891fdb44fa31][field0]"][value="Yes"]';
+export const emailInput = '[name="email"]';
+export const jobTitle = '.job-title';
+export const nameInput = '[name="name"]';
+export const orgInput = '[name="org"]';
+export const phoneInput = '[name="phone"]';
+export const placeOfLivingNo = '[name="cards[feb7d9d3-23a6-4c29-9e9f-5d9db2a872f4][field0]"][value="No"]';
+export const placeOfLivingYes = '[name="cards[feb7d9d3-23a6-4c29-9e9f-5d9db2a872f4][field0]"][value="Yes"]';
+export const submitButton = '[data-qa="btn-submit"]';
+export const mainContentCaptchaIframe = '[title="Main content of the hCaptcha challenge"]';

@@ -1,0 +1,12 @@
+export const applicantEmail = 'test@example.com';
+export const applicantName = 'mohammad shalabi';
+export const careerPagePath = '/career';
+export const checkCaptchaUrl = '/checkcaptcha/*';
+export const getCaptchaUrl = '/getcaptcha?*';
+export const noticePeriod = 'none';
+export const organization = 'test';
+export const parseResumeUrl = '/parseResume';
+export const phoneNumber = '+962(0)791423416';
+export const postingUrl = '/v0/postings/userlane?*';
+export const salary = '50000-60000';
+export const submitApplicationUrl = '/userlane/*/apply';
