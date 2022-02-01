@@ -33,6 +33,8 @@ describe('Userlane Career Page Functional Checks', () => {
 			cy.wrap(body).find(utils.checkbox).click();
 			utils.waitForSuccessfulStatus('@getCaptcha');
 		});
+		// we can hack the UI of h-captcha but it won't actually work
+		// we need a valid UUID token to pass it in the response body
 		cy.get(utils.mainContentCaptchaIframe).then((iframe) => {
 			const body = iframe.contents().find('body');
 			cy.wrap(body).find(utils.captchaImages).eq(0).click();
@@ -47,6 +49,7 @@ describe('Userlane Career Page Functional Checks', () => {
 			cy.wait('@hcaptcha');
 		});
 
+		// The test will fail since the h-captcha
 		cy.intercept('POST', utils.submitApplicationUrl).as('submit');
 		cy.get(utils.submitButton).click();
 		utils.waitForSuccessfulStatus('@submit');
